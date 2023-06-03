@@ -1,0 +1,72 @@
+Important Interview Questions
+
+1] Why do we need html head body tags?      
+
+To make sure that the code is organised we used the tags..
+
+2] Why we do not get the error message when we remove the tags?
+
+The browser is smart enough it automatically puts it and errors are avoided
+
+3] Is it necessary to write DOCTYPE html in the code ?
+
+It should be written at the top to make sure that we are writing a code in html-5
+
+4] Ways of using CSS inside code
+
+INLINE
+css should be put in the same line of the html code
+eg: <h1 style="color:blue"> Prajwal Kale </h1>
+
+
+INTERNAL
+css should be put in the head section of the html code
+eg: <head>
+        <style>
+            h3{
+                color:red;
+            }
+        </style>
+    </head>
+
+
+EXTERNAL
+If css file is linked to the html file using <link rel="stylesheet" href="./styles.css">
+We have to link the css file to html file because the browser runs only the HTML code
+
+5] What is the Preferance for 
+INLINE 
+INTERNAL
+EXTERNAL
+
+
+6] Which css should be used in your code?
+
+Never use Internal and Inline CSS 
+Always use External CSS.
+Because the html should be portable and as small as possible.
+
+
+7] What is  Selector ?
+
+The tag which you want to modify is called as a Selector
+& the block of code inside it is called as a decleration block
+
+img{
+    background-color:green;
+
+}
+
+<!--Here img is said to be a selector-->
+
+8] What is a difference between a class and a id ? 
+
+ A Class name can be used by multiple HTML elements, while an ID name must only be used by one HTML element within the page(means a student in a particular class has a single id or roll no )
+ To select a class , dot(.) is used and to selct an id hashtag (#) is used
+
+9] What are the types of measurements in css
+
+Absolute :- eg. A Road is 8m wide(px-1/96 of an inch)
+Relative :- eg. A Road is 2 cars wide(%,em,vh,vw)
+
+Note: If the image height or width is set to pixels then the image height or width will not change but if it is set to %(percentage) eg. if the image height or width is set to 50% then it will set according to the body even if the window size is changed.
