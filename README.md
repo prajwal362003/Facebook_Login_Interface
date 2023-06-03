@@ -1,1 +1,1 @@
-# Facebook_Login_Interface
+This is a simple HTML and CSS project that replicates the layout and design of the Facebook homepage. It demonstrates the use of flexbox for creating responsive layouts and styling elements using CSS. The project includes separate HTML and CSS files for easy customization and maintenance. Feel free to use this project as a template or starting point for your own web development projects.
